@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+
+#single-appversions {
+  font-family: 'Lato', sans-serif;
+  margin: 5rem 0;
+}
+
+#single-appversions .title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f2a727;
+}
+
+#single-appversions p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#single-appversions ul {
+  margin-bottom: 0;
+}
+
+#single-appversions ul li {
+  font-size: 16px;
+}
+
+#single-appversions table td {
+  padding: 1rem;
+}
+
+#single-appversions table td:nth-child(1) {
+  max-width: 80px;
+  border-right: 1px solid #ccc;
+}
+
+#archive-appversions {
+  font-family: 'Lato', sans-serif;
+  margin: 50px auto;
+}
+
+#archive-appversions .title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #f2a627;
+  margin: 0 0 25px 0;
+}
+
+#archive-appversions a,
+#archive-appversions a:hover {
+  color: #f2a727; 
+}
+
+#archive-appversions .sub-title { 
+  font-size: 18px; 
+  font-weight: 600; 
+  margin: 0 0 10px 0;
+  color: #000;
+}
+
+#archive-appversions .navigation {
+  width: 100%;
+  padding: 0 15px;
+}
+
+#archive-appversions .navigation a {
+/*#archive-appversions .navigation .first-page,
+#archive-appversions .navigation .last-page a,
+#archive-appversions .middle-page a:nth-child(1), 
+#archive-appversions .middle-page a:nth-child(2)*/ 
+  font-family: 'Lato', sans-serif;
+  background-color: #f2a727;
+  border: 2px solid #f2a727;
+  color: #272727;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: normal;
+  width: 130px;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.timeline {
+  font-family: 'Lato', sans-serif;
+  border-left: 3px solid #dfe2e5;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;    
+  color: #272727;
+  font-family: 'Lato', sans-serif;  
+  margin: 50px auto;  
+  letter-spacing: 0.5px;   
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;   
+  padding: 40px 15px;   
+  list-style: none;
+  text-align: left;
+}
+
+.timeline li .latest-release {
+  font-size: 12px;
+  position: absolute;
+  left: -130px;
+  top: -35px;
+  color: #f2a727;
+  border: 1px solid #f2a727;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+.event {
+  margin-bottom: 50px;  
+  position: relative;
+}
+
+.event:last-of-type { 
+  padding-bottom: 0;
+  margin-bottom: 0; 
+  border: none;  
+}
+
+.even:before, 
+.event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.event:before {
+  position: absolute;
+  left: -85px;
+  color: #272727;    
+  content: attr(title);
+  text-align: right;
+  font-family: 'Lato', sans-serif;  
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.event ul {
+  margin-bottom: 20px;
+}
+
+.event ul li {
+  list-style: none;
+  color: #272727;
+  font-size: 16px;
+}
+
+.event ul li:before {
+    content: "\2022";
+    color: #f2a727;
+    position: absolute;
+    left: 0;
+}    
+
